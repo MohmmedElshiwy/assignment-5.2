@@ -1,0 +1,88 @@
+@media (max-width: 575px) {
+  .xsm-100 {
+    width: 100%;
+  }
+  .xsm-50 {
+    width: 50%;
+  }
+  .xsm-33 {
+    width: 33.33%;
+  }
+  .xsm-25 {
+    width: 25%;
+  }
+  .xsm-16 {
+    width: 16.66%;
+  }
+}
+@media (min-width: 575px) and (max-width:767px) {
+  .sm-100 {
+    width: 100%;
+  }
+  .sm-50 {
+    width: 50%;
+  }
+  .sm-33 {
+    width: 33.33%;
+  }
+  .sm-25 {
+    width: 25%;
+  }
+  .sm-16 {
+    width: 16.66%;
+  }
+}
+
+@media (min-width: 768px)  and (max-width:991px){
+    .md-100 {
+        width: 100%;
+      }
+      .md-50 {
+        width: 50%;
+      }
+      .md-33 {
+        width: 33.33%;
+      }
+      .md-25 {
+        width: 25%;
+      }
+      .md-16 {
+        width: 16.66%;
+      }
+}
+@media (min-width: 992px) and (max-width:1199px) {
+
+    .lg-100 {
+        width: 100%;
+      }
+      .lg-50 {
+        width: 50%;
+      }
+      .lg-33 {
+        width: 33.33%;
+      }
+      .lg-25 {
+        width: 25%;
+      }
+      .lg-16 {
+        width: 16.66%;
+      }
+}
+@media (min-width: 1200px) {
+
+    .xl-100 {
+        width: 100%;
+      }
+      .xl-50 {
+        width: 50%;
+      }
+      .xl-33 {
+        width: 33.33%;
+      }
+      .xl-25 {
+        width: 25%;
+      }
+      .xl-16 {
+        width: 16.66%;
+      }
+}
