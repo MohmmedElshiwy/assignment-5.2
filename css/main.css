@@ -654,7 +654,7 @@ footer star
       display: block;
 
       position: absolute;
-      right: 50px;
+      right: 30px;
     }
     ul {
       flex-direction: column;
@@ -707,7 +707,7 @@ footer star
       display: block;
 
       position: absolute;
-      right: 50px;
+      right: 20px;
     }
 
     ul {
@@ -814,7 +814,7 @@ img{
       display: block;
 
       position: absolute;
-      right: 50px;
+      right: 20px;
     }
     
     ul {
