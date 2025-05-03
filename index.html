@@ -20,13 +20,7 @@ google-Fonts
     <!-- 
      fontawesome
  -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
-      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
+ 
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
@@ -40,7 +34,7 @@ google-Fonts
     <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon" />
     <link rel="stylesheet" href="./css/main.css" />
     <link rel="stylesheet" href="./css/media-layou.css" />
-    <title>Document</title>
+    <title>Mealify</title>
   </head>
   <body>
     <!-- 
@@ -53,21 +47,21 @@ google-Fonts
           <div class="logo">
             <a href="./index.html">mealify</a>
           </div>
-          <div class="mode d-f align-center ">
+          <div class="mode d-f align-center space-btween ">
             <label for="change-mode"><i class="fa-regular fa-moon"></i></label>
             <input type="checkbox" name="change-mode" id="change-mode" hidden />
 
             
+            <label  class="bar" for="bar"><i class="fa-solid fa-bars"></i></label>
             <input type="checkbox" name="bar" id="bar" hidden />
         </div>
-        <label  class="bar" for="bar"><i class="fa-solid fa-bars"></i></label>
           <ul>
             <li><a class="active" href="#">home</a></li>
             <li><a href="#chefs">chefs</a></li>
             <li><a href="#gallery">gallery</a></li>
             <li><a href="#contact">contact</a></li>
-            <li class="close" hidden >
-                <label for="close"><i class="fa-solid fa-xmark"></i></label>
+            <li  class="close" hidden >
+                <label  for="close"><i class="fa-solid fa-xmark"></i></label>
                 <input type="checkbox" name="close" id="close" hidden />
 
             </li>
@@ -79,15 +73,15 @@ google-Fonts
 
       <div id="hero">
         <div class="container section">
-          <div class="hero-desc lg-50">
-            <h1>Enjoy Your Healthy Delicious Food</h1>
+          <div class="hero-desc lg-50 sm-50 xxsm-100">
+            <h1 class="sm-100 ">Enjoy Your Healthy Delicious Food</h1>
             <p>
               Sed autem laudantium dolores. Voluptatem itaque ea consequatur
               eveniet. Eum quas beatae cumque eum quaerat.
             </p>
-            <div class="hero-links align-center md-100">
-              <a class="btn sm-50 md-50 " href="#contact">book a tabel</a>
-              <a class="sm-50 md-50" href="https://www.youtube.com/" target="_blank">
+            <div class="hero-links align-center md-100 xxsm-100 xsm-100">
+              <a class="btn sm-50 md-50 xsm-100 xxsm-100" href="#contact">book a tabel</a>
+              <a class="sm-50 md-50 xsm-100 xxsm-100" href="https://www.youtube.com/" target="_blank">
                 <span class="circle d-f align-center just-center">
                   <i class="fa-solid fa-play"></i>
                 </span>
@@ -95,8 +89,8 @@ google-Fonts
               >
             </div>
           </div>
-          <div class="hero-img lg-50  d-f align-center just-center tx-center ">
-            <img src="./img/hero-img.png" alt="" />
+          <div class="hero-img md-100 lg-50 sm-100 xxsm-100 d-f align-center just-center tx-center ">
+            <img class="md-50" src="./img/hero-img.png" alt="" />
           </div>
         </div>
       </div>
@@ -200,87 +194,75 @@ google-Fonts
     ******************
     -->
 
-    <section class="gallery-sec" id="gallery">
-        <div class="container section tx-center f-c">
-            <span>gallery</span>
+    <section class="gallery-sec section " id="gallery">
+       <div class="container tx-center  f-c">
+        <span>gallery</span>
         <h2>Check  <span>Our Gallery</span></h2>
-        <div class="gallery-image d-f f-w section">
+        <div class="gallery-images">
+            <div class="img1 img">
+                <img src="./img/meal-1.jpg" alt="">
+                <div class="pic-caption d-f f-c just-center">
+                    <h3>Pizza
+                    </h3>
+                    <p>Hawaiian pizza with ham and pineapple</p>
+                </div>
+            </div>
+            <div class="img2 img">
+                <img src="./img/meal-2.jpg" alt="">
+                <div class="pic-caption d-f f-c just-center">
+                    <h3>Pizza
+                    </h3>
+                    <p>Hawaiian pizza with ham and pineapple</p>
+                </div>
             
-            <div class="gallery-left d-f f-c lg-33 md-50">
-                <div class="pic md-100">
-                    <img src="./img/meal-1.jpg" alt="meal-1">
-                    <div class="pic-caption d-f f-c just-center">
-                        <h3>Pizza
-                        </h3>
-                        <p>Hawaiian pizza with ham and pineapple</p>
-                    </div>
-
+            
+            </div>
+            <div class="img3 img">
+                <img src="./img/meal-3.jpg" alt="">
+                <div class="pic-caption d-f f-c just-center">
+                    <h3>Pizza
+                    </h3>
+                    <p>Hawaiian pizza with ham and pineapple</p>
                 </div>
-                <div class="pic md-100">
-                    <img src="./img/meal-4.jpg" alt="meal-4">
-                    <div class="pic-caption d-f f-c just-center">
-                        <h3>Levitation pizza
-                        </h3>
-                        <p>Levitation pizza on black background.</p>
-                    </div>
-
+            
+            </div>
+            <div class="img4 img">
+                <img src="./img/meal-4.jpg" alt="">
+            
+                <div class="pic-caption d-f f-c just-center ">
+                    <h3>Levitation pizza
+                    </h3>
+                    <p>Levitation pizza on black background.</p>
                 </div>
             </div>
-
-
-            <div class="gallery-center d-f f-c lg-33 md-50">
-                <div class="pic md-100 ">
-                    <img src="./img/meal-2.jpg" alt="meal-1">
-                    <div class="pic-caption d-f f-c just-center">
-                        <h3>Pizza
-                        </h3>
-                        <p>Hawaiian pizza with ham and pineapple</p>
-                    </div>
-
+            <div class="img5 img">
+                <img src="./img/meal-5.jpg" alt="">
+                <div class="pic-caption d-f f-c just-center">
+                    <h3>Levitation pizza
+                    </h3>
+                    <p>Levitation pizza on black background.</p>
                 </div>
-                <div class="pic md-100">
-                    <img src="./img/meal-7.jpg" alt="meal-4">
-                    <div class="pic-caption d-f f-c just-center">
-                        <h3>Levitation pizza
-                        </h3>
-                        <p>Levitation pizza on black background.</p>
-                    </div>
-
-                </div>
+            
+            
             </div>
-
-            <div class="gallery-right  d-f f-c lg-33 md-50">
-                <div class="pic md-100">
-                    <img src="./img/meal-3.jpg" alt="meal-1">
-                    <div class="pic-caption d-f f-c just-center">
-                        <h3>Pizza
-                        </h3>
-                        <p>Hawaiian pizza with ham and pineapple</p>
-                    </div>
-
+            <div class="img6 img">
+                <img src="./img/meal-6.jpg" alt="">
+                <div class="pic-caption d-f f-c just-center">
+                    <h3>Levitation pizza
+                    </h3>
+                    <p>Levitation pizza on black background.</p>
                 </div>
-                <div class="pic md-100">
-                    <img src="./img/meal-5.jpg" alt="meal-4">
-                    <div class="pic-caption d-f f-c just-center">
-                        <h3>Levitation pizza
-                        </h3>
-                        <p>Levitation pizza on black background.</p>
-                    </div>
-
-                </div>
-                <div class="pic md-100">
-                    <img src="./img/meal-6.jpg" alt="meal-4">
-                    <div class="pic-caption d-f f-c just-center">
-                        <h3>Levitation pizza
-                        </h3>
-                        <p>Levitation pizza on black background.</p>
-                    </div>
-
-                </div>
+            
             </div>
-
-        </div>
-        </div>
+            <div class="img7 img"><img src="./img/meal-7.jpg" alt="">
+                <div class="pic-caption d-f f-c just-center">
+                    <h3>Levitation pizza
+                    </h3>
+                    <p>Levitation pizza on black background.</p>
+                </div></div>
+          </div>
+          
+       </div>
     </section>
 
     <!-- 

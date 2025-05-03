@@ -1,3 +1,21 @@
+@media (min-width:150px) and (max-width:319px){
+  .xxsm-100 {
+    width: 100%;
+  }
+  .xxsm-50 {
+    width: 50%;
+  }
+  .xxsm-33 {
+    width: 33.33%;
+  }
+  .xxsm-25 {
+    width: 25%;
+  }
+  .xxsm-16 {
+    width: 16.66%;
+  }
+
+}
 @media (max-width: 575px) {
   .xsm-100 {
     width: 100%;
